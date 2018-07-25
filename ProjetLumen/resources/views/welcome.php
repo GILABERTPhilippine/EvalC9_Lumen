@@ -1,0 +1,5 @@
+<?php
+
+$url = route('welcome');
+
+?>

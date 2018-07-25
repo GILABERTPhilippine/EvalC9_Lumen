@@ -1,0 +1,25 @@
+QUESTIONS (the following questions will assess whether you have read and understood the
+documentation and have done some research around it) :
+
+- What is Lumen based on?
+Lumen is based on PHP of the laravel framework.
+
+- What is Composer and what is it used for?
+Composer is a tool for dependency management in PHP. It makes you to declare the libraries your project depends on it.
+
+- What command in your terminal allow you to start your project server?
+php -S localhost:8000 -t ProjetLumen/public
+
+- In which folder is your html stored?
+In the public folder
+
+- What is the method that allows me to check whether a view exists?
+The methods views facade : View::exists('welcome');
+
+- In which format/type does the information passed need to be before being received
+by the view? In format JSON.
+
+- Explain how do the concepts of View/Controller/Routing work together.
+The routes are used to transfer the requests supported in the functions and all the information encoded in the request URLs.
+The controller is used to perform functions to obtain coded data in your views and return them to the user on the browser.
+Views are used by the controller to render the data.
